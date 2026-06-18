@@ -147,6 +147,23 @@ const Contact = () => {
 >
   CV
 </motion.a>
+  <motion.a
+  href='/TCV2.pdf'
+  download
+  animate={{
+    scale: [1, 1.1, 0.95, 1],
+    backgroundColor: ["#151030", "#1e2a4a", "#151030"],
+  }}
+  transition={{
+    duration: 2,
+    repeat: Infinity,
+    repeatType: "loop",
+    ease: "easeInOut",
+  }}
+  className='py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary flex items-center justify-center'
+>
+  CV-EN
+</motion.a>
 </div>
           
         </form>

@@ -15,16 +15,15 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  laposte,
+  capcut,
+  uha,
+  alwaha,
 } from "../assets";
-import gns3 from "../assets/gns3.png";
 
 
 export const navLinks = [
@@ -119,10 +118,10 @@ const technologies = [
 const experiences = [
   {
     title: "BAC SC.Physiques",
-    company_name: "institut al waha",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "Septembre 2024 - juin 2025",
+    company_name: "Institut Al Waha",
+    icon: alwaha,
+    iconBg: "#ffffff",
+    date: "Septembre 2024 - Juin 2025",
     points: [
       "Comprendre les bases de la physique et de la chimie.",
       "Faire des expériences en labo et analyser les résultats.",
@@ -132,9 +131,9 @@ const experiences = [
   },
   {
     title: "Éditeur vidéo",
-    company_name: "autoentrepreneur",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    company_name: "",
+    icon: capcut,
+    iconBg: "#000000",
     date: "Janvier 2022 - Juillet 2024",
     points: [
       "Utiliser des logiciels de montage comme Premiere Pro ou CapCut.",
@@ -144,9 +143,9 @@ const experiences = [
   },
   {
     title: "Étudiant en BUT R&T",
-    company_name: "IUT de colmar",
-    icon: shopify,
-    iconBg: "#383E56",
+    company_name: "IUT de Colmar",
+    icon: uha,
+    iconBg: "#ffffff",
     date: "Septembre 2024 - Juin 2027",
     points: [
       "Apprendre les bases des réseaux informatiques et des télécommunications.",
@@ -156,16 +155,15 @@ const experiences = [
     ],
   },
   {
-    title: "Développement web",
-    company_name: "VS",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Janvier 2025 - Présent",
+    title: "Stagiaire Technicien Infrastructure",
+    company_name: "La Poste",
+    icon: laposte,
+    iconBg: "#FFCD00",
+    date: "Avril 2026 - Juin 2026",
     points: [
-      "Débutant en développement web, j'apprends petit à petit les bases.",
-      "Je découvre React et JavaScript pour créer des interfaces dynamiques.",
-      "J'expérimente avec la 3D sur le web grâce à Three.js et React Three Fiber.",
-      "Je cherche à améliorer mes compétences chaque jour en codant et en testant",
+      "Interventions sur les sites de La Poste en Alsace pour l’installation, la maintenance et le support des infrastructures informatiques et réseaux.",
+      "Configuration et déploiement d’équipements informatiques ainsi que participation à des opérations de modernisation des systèmes techniques.",
+      "Assistance technique sur les infrastructures réseau, les postes de travail et les équipements connectés afin d’assurer leur bon fonctionnement.",
     ],
   },
 ];
@@ -192,7 +190,7 @@ const testimonials = [
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
-    company: "project_3D_developer_portfolio-main\src\assets\foot.jpg",
+    company: "456 Entreprise",
     image: "https://img.freepik.com/photos-gratuite/voir-ci-dessus-assortiment-articles-voyage-nature-morte_23-2149617645.jpg",
   },
 ];
@@ -201,20 +199,11 @@ const projects = [
   {
     name: "WiFi",
     description:
-      "Projet sur la mise en place d’un réseau Wifi simulé avec Packet Tracer et analysé avec Acrylic Heatmapper.Nous avons étudié la couverture, l’impact des obstacles et les performances du signal.",
+      "Projet sur la mise en place d'un réseau Wifi simulé avec Packet Tracer et analysé avec Acrylic Heatmapper. Nous avons étudié la couverture, l'impact des obstacles et les performances du signal.",
     tags: [
-      {
-        name: "acrylic",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "packet tracer",
-        color: "green-text-gradient",
-      },
-      {
-        name: "speed-test",
-        color: "pink-text-gradient",
-      },
+      { name: "acrylic", color: "blue-text-gradient" },
+      { name: "packet tracer", color: "green-text-gradient" },
+      { name: "speed-test", color: "pink-text-gradient" },
     ],
     image: carrent,
     source_code_link: "https://github.com/chlehh/SAE-Acrylic",
@@ -222,20 +211,11 @@ const projects = [
   {
     name: "Traiter les données",
     description:
-      "Projet Python générant un script PowerShell pour automatiser la suppression de fichiers.Permet une gestion rapide et efficace du nettoyage système.",
+      "Projet Python générant un script PowerShell pour automatiser la suppression de fichiers. Permet une gestion rapide et efficace du nettoyage système.",
     tags: [
-      {
-        name: "Python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Powershell",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Windows",
-        color: "pink-text-gradient",
-      },
+      { name: "Python", color: "blue-text-gradient" },
+      { name: "Powershell", color: "green-text-gradient" },
+      { name: "Windows", color: "pink-text-gradient" },
     ],
     image: jobit,
     source_code_link: "https://github.com/chlehh/Python",
@@ -243,20 +223,11 @@ const projects = [
   {
     name: "les attaques 0-day",
     description:
-      "Vidéo de sensibilisation à l’hygiène en cybersécurité, présentant les bonnes pratiques et les attaques 0-day.Objectif : expliquer les risques et encourager des comportements sécurisés au quotidien.",
+      "Vidéo de sensibilisation à l'hygiène en cybersécurité, présentant les bonnes pratiques et les attaques 0-day. Objectif : expliquer les risques et encourager des comportements sécurisés au quotidien.",
     tags: [
-      {
-        name: "Capcut",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Canva",
-        color: "green-text-gradient",
-      },
-      {
-        name: "vid",
-        color: "pink-text-gradient",
-      },
+      { name: "Capcut", color: "blue-text-gradient" },
+      { name: "Canva", color: "green-text-gradient" },
+      { name: "vid", color: "pink-text-gradient" },
     ],
     image: tripguide,
     source_code_link: "https://github.com/chlehh/Vid-0day",
@@ -264,16 +235,14 @@ const projects = [
   {
     name: "Réseau avec GNS3",
     description:
-      "Simulation d’un réseau avec VLANs, DHCP, routage dans GNS3.",
+      "Simulation d'un réseau avec VLANs, DHCP, routage dans GNS3.",
     tags: [
       { name: "GNS3", color: "blue-text-gradient" },
       { name: "Cisco", color: "green-text-gradient" },
     ],
     image: jobit,
-    source_code_link: "https://github.com/"
-    
+    source_code_link: "https://github.com/chlehh",
   },
-
 ];
 
 export { services, technologies, experiences, testimonials, projects };

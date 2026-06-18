@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-Je suis étudiant en Réseaux et Télécommunications à l’IUT de Colmar. Je suis passionné par la cybersécurité, le Cloud et les nouvelles technologies. J’aime apprendre, découvrir de nouvelles choses et rencontrer des personnes du monde entier. C’est souvent grâce aux jeux vidéo en ligne que je fais ces rencontres et que je partage avec d’autres. J’aime aussi le montage vidéo, car ça me permet d’être créatif et de m’exprimer autrement.
+Je suis étudiant en Réseaux et Télécommunications à l’IUT de Colmar, avec un intérêt marqué pour la cybersécurité, le Cloud Computing et les technologies de l’information. Curieux et motivé, j’apprécie développer continuellement mes compétences, explorer de nouveaux domaines techniques et échanger avec des personnes issues de différents horizons. Je m’intéresse également au montage vidéo, une activité qui me permet de mettre en pratique ma créativité et mon sens du détail.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

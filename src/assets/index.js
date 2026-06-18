@@ -25,6 +25,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import laposte from "./company/laposte.png";
+import capcut from "./company/capcut.png";
+import uha from "./company/uha.png";
+import alwaha from "./company/alwaha.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -56,6 +60,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  laposte,
+  capcut,
+  uha,
+  alwaha,
   carrent,
   jobit,
   tripguide,
