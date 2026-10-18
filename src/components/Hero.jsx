@@ -51,8 +51,8 @@ const Hero = () => {
           </AnimatePresence>
 
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Étudiant en Réseaux et Télécommunications  <br className='sm:block hidden' />
-            Passionné par la Cybersécurité et le Cloud
+            Étudiant en Réseaux et Télécommunications <br />
+            Passionné par l'IA et le Cloud
           </p>
         </div>
       </div>

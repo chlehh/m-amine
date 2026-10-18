@@ -31,6 +31,7 @@ const Computers = ({ isMobile }) => {
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
+  const [isTouch] = useState(() => window.matchMedia("(pointer: coarse)").matches);
 
   useEffect(() => {
     // Add a listener for changes to the screen size
@@ -58,15 +59,20 @@ const ComputersCanvas = () => {
       frameloop='demand'
       shadows
       dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
+      // Same framing the locked OrbitControls produce (camera on the horizontal plane)
+      camera={{ position: isTouch ? [20.21, 0, 5.05] : [20, 3, 5], fov: 25 }}
+      onCreated={({ camera }) => camera.lookAt(0, 0, 0)}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls
-          enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
-          minPolarAngle={Math.PI / 2}
-        />
+        {/* On touch screens the controls would swallow the swipe and block page scrolling */}
+        {!isTouch && (
+          <OrbitControls
+            enableZoom={false}
+            maxPolarAngle={Math.PI / 2}
+            minPolarAngle={Math.PI / 2}
+          />
+        )}
         <Computers isMobile={isMobile} />
       </Suspense>
 

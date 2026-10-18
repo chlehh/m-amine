@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import ollama from "./tech/ollama.png";
+import windows from "./tech/windows.png";
+
+import videoIcon from "./services/video.svg";
+import codeIcon from "./services/code.svg";
+import shieldIcon from "./services/shield.svg";
+import cloudIcon from "./services/cloud.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,6 +40,18 @@ import alwaha from "./company/alwaha.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import lapostePoster from "./laposte-poster.jpg";
+
+import minusCover from "./projects/minus.webp";
+import minusIcon from "./projects/minus-icon.png";
+import localAiCover from "./projects/local-ai.webp";
+import mazeBankCover from "./projects/maze-bank.webp";
+import onionCover from "./projects/onion.webp";
+import multiSitesCover from "./projects/multi-sites.webp";
+import wifiCover from "./projects/wifi.webp";
+import gns3Cover from "./projects/gns3.webp";
+import esp32Cover from "./projects/esp32.webp";
+import zeroDayCover from "./projects/zero-day.webp";
 
 export {
   logo,
@@ -56,6 +75,12 @@ export {
   tailwind,
   typescript,
   threejs,
+  ollama,
+  windows,
+  videoIcon,
+  codeIcon,
+  shieldIcon,
+  cloudIcon,
   meta,
   shopify,
   starbucks,
@@ -67,4 +92,15 @@ export {
   carrent,
   jobit,
   tripguide,
+  lapostePoster,
+  minusCover,
+  minusIcon,
+  localAiCover,
+  mazeBankCover,
+  onionCover,
+  multiSitesCover,
+  wifiCover,
+  gns3Cover,
+  esp32Cover,
+  zeroDayCover,
 };
